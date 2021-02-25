@@ -1,4 +1,4 @@
-#This is a guess the number game.
+# This is a guess the number game. 
 
 import random
 print ('Hello. What is your name?')
@@ -8,7 +8,7 @@ secretNumber = random.randint(1, 20)
 print (''+ name +'?!' ' Cool!' ' That is a very fine name! ' + name+ ', I am thinking of a number between 1 and 20. What is it? ')
 
 
-# ask the player to guess 6 times
+# Ask the player to guess 6 times
 
 for guessesTaken in range (1,7):
     print('Take a guess.')
@@ -20,7 +20,7 @@ for guessesTaken in range (1,7):
     else:
         break
 
-#This condition is the correct guess!
+# This condition is for the correct guess.
 
 if guess == secretNumber:
     print('Nice, ' + name + '.' ' You nailed it!' ' You guessed in ' + str(guessesTaken) + ' guesses.')
